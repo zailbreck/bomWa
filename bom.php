@@ -1,5 +1,5 @@
 <?php
-
+error_reporting(0);
 function curl($url,$data_post=0,$header=array(),$proxy=0){
  $ch = curl_init($url);
  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1  ); 
