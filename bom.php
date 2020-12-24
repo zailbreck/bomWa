@@ -41,7 +41,7 @@ print "\t\e[1;32m===================\e[0m\n";
 print "\t\e[1;32m===================\n";
 $no=readline("\e[1;37m[>]No Wa: ");
 $jml=readline("\e[1;37m[>]Jumlah spam: ");
-echo "\e[0m\n\n";
+echo "\e[0m";
 $x=0;
 while($x < $jml){
   $bom= wa($no,$jml);
